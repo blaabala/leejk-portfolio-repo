@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --muted:     #7a7870;
+
+  --color-bg: #181818;
+  --color-accent: #2EFFA0;
+  --color-text: #FFFFFF;
+  --color-header: #0D0D16;
+  --color-footer: #0A0A12;
+  --color-white: #ffffff;
+
+  --color-border-white: #ffffff;
+
+  --color-text-btn: #181818;
+  --color-btn: #2EFFA0;
+  --color-btn-download: #2EFFA0;
+  --color-btn-contact: #181818;
+
+  --color-text-btn-download: #181818;
+  --color-text-btn-contact: #FFFFFF;
+
+  --color-btn-active-contact: #FFFFFF;
+  --color-text-btn-active-contact: #181818;
+  --color-btn-active-download: #181818;
+  --color-text-btn-active-download: #2EFFA0;
+
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-accent);
+}
+
+p, span, li, a {
+  color: var(--color-text);
+}
