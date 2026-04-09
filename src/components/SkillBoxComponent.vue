@@ -35,7 +35,7 @@ export default {
         },
         {
           title: this.$t('skills.backend'),
-          skills: ['Express.js', 'PHP', 'RESTful API']
+          skills: ['Express.js', 'Node.js', 'PHP', 'RESTful API']
         },
         {
           title: this.$t('skills.databases'),
